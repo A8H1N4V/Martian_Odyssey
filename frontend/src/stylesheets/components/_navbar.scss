@@ -1,0 +1,62 @@
+.navbar-container {
+    background: $darkblue;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        margin: 0 5px;
+    }
+
+    border-bottom: 1px solid $white;
+    font-family: $font-sans-serif;
+    color: $white;
+
+}
+
+.modal-buttons {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    cursor: pointer;
+    color: $yellow;
+}
+
+.nav-bar-stats {
+    font-size: 20px;
+}
+
+.nav-bar-stats-item {
+    font-size: 14px;
+    margin: 0 10px;
+
+    span {
+        a {
+            color: $yellow;
+        }
+
+        color: $yellow;
+    }
+}
+
+.button {
+    border-radius: 5px;
+    background: $gamered;
+    padding: 10px;
+    color: $white;
+    font-family: $font-sans-serif;
+    cursor: pointer;
+
+    &:hover {
+        background: $darkgamered;
+    }
+}
+
+.navbar-logo {
+    a {
+        color: $white;
+        font-size: 30px;
+    }
+}

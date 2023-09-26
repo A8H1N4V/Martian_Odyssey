@@ -1,0 +1,93 @@
+.game-area-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-area {
+  background: #fafafa;
+  width: 800px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.game-stats {
+  justify-content: space-evenly;
+
+}
+
+.countdown {
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.3;  
+  font-family: $font-sans-serif;
+  span {
+    font-weight: bold;
+    color: $red;
+  }
+}
+
+.answer-phrase {
+  font-kerning: none;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  // border: 1px solid $black;
+  padding: 10px;
+  justify-content: center;          
+  font-size: 30px;
+  font-family: $font-sans-serif;
+  line-height: 1.18;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $darkblue;
+  pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .green {
+    background: $gamegreen;
+    // border-radius: 5px;
+  }
+  .red {
+    // border-radius: 5px;
+    background: $gamered;
+  }
+}  
+.finished {
+  border-radius: 10px;
+}
+
+.game-congrats {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.wpm {
+  justify-content: center;
+  padding: 20px;
+  font-size: 22px;
+  div {
+    min-width: 50px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .game-area {
+    width: 90%;
+    padding: 10px;
+    pre {
+      font-size: 25px;
+    }
+  }
+}

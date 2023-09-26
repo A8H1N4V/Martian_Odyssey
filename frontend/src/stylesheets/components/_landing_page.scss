@@ -1,0 +1,56 @@
+.landing-page-container {
+    margin: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page-links {
+    width: 500px;
+    button {
+        margin: 20px 20px 0px 20px;
+        a {
+            color: $white;
+            font-family: $font-sans-serif;
+        }
+    }
+    .pulse {
+        -webkit-animation: pulse 3s infinite;
+    }
+}
+.landing-page-leaderboard-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.landing-page-box {
+    margin: 20px;
+    border: 1px solid $white;
+    color: $white;
+    padding: 20px;
+    text-align: center;
+    background: $darkblue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-size: 30px;
+    }
+    li {
+        font-size: 16px;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
